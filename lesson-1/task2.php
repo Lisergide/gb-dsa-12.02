@@ -7,7 +7,7 @@
 
 
 $number = 13195;
-$arrayOfDividers = [];
+$arrayOfPrimes = [];
 $array = [];
 
 for ($i = 2; $i < $number; $i++) {
@@ -18,8 +18,8 @@ for ($i = 2; $i < $number; $i++) {
            }
        }
        if (empty($array)) {
-           $arrayOfDividers[1] = $i;
+           $arrayOfPrimes[1] = $i;
        }
     }
 }
-print_r($arrayOfDividers);
+print_r($arrayOfPrimes);
